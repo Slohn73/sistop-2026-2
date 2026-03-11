@@ -7,14 +7,6 @@
 
 #define MAX_INPUT 500
 #define MAX_TOKENS 50
-
-
-//HANDLER
-void handler(int signum){
-    if(signum == 17){
-        printf("Dentro del handler N.17 \n");
-    }
-}
 #define COMANDO_SALIDA "exit"
 // Crear el bucle de la terminal
 // Procesar la linea
